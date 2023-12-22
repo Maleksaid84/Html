@@ -1,0 +1,212 @@
+
+                   /*********************************************************************** PARTIE TITRES ET TEXTES ************************************/
+
+
+
+body{
+  font-family:  "Roboto";
+}
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+li{
+  list-style: none;
+}
+
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px;
+  font-size: 2em;
+  font-family: "Roboto";
+
+}
+
+
+.cont{
+  text-align: center;
+}
+                                                                             .name{
+                                                                              color: #13a11a;
+                                                                              text-align: center;
+                                                                              font-family: "Lucida Console", "Courier New", monospace;
+                                                                              font-style: oblique;
+                                                                              font-size: 50px;
+                                                                            }
+                                                                            
+
+h1{
+    color: brown;
+}
+h2{
+    color: brown;
+}
+.metiers{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 2em;
+}
+                                                                        /************** PARTIE IMAGES ET MULTIMEDIAS *************************************************/
+
+                                                                        .BG{
+                                                                          padding-top: 150px;
+                                                                          background: url (imag1.jpg) no-repeat;
+                                                                          background: cover;
+                                                                          margin-top: 20px;
+                                                                          margin-bottom: 100px;
+                                                                          margin-right: 150px;
+                                                                          margin-left: 625px;
+                                                                          
+                                                                          
+                                                                          
+                                                                        }
+                                /****************************** PARTIE BARRE DES MENUES *************************************************************/
+
+                      nav{
+                        overflow:hidden ;
+                        position: sticky;
+                        width: 100%;
+                        height: 100px;
+                        opacity: 0.9;
+                        background-color: rgb(126, 128, 111)   
+                      }
+ li{
+  float: left;
+  font: size 1.2em; ;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+ li a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 16px 16px;
+  font-family: "Roboto";
+}
+                     
+/******************************************** PARTIE PARAGRAPHE *********************************************************************/
+
+  #Txtintro {  
+    
+    
+    padding: 10px;
+    width: 800px
+    height: 200px;
+    
+    margin: 50px;
+    
+       background-color: rgb(201, 195, 195) 
+       
+       
+  }
+    
+   p{
+    padding: 5px;
+    text-align: justify;
+    font: size 1.2em; ;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:"Roboto" ;
+   }
+   
+  
+  
+                                                            
+  body {
+    background-color: lightgrey;
+        background-image: url("imag1.jpg") none repeat fixed 50% 50%;
+        background: cover;
+    color: rgb(14, 14, 32);
+  }
+   /********************************************************* Partrie Apropos html**************************************************************** */
+                              #t1{
+                                color: rgb(24, 46, 24);
+                                font-family: "Roboto";
+                              }
+
+                              .Apropos{
+                                text-align: center;
+                                text-align: justify;
+                                letter-spacing: 3px;
+                                
+                              }
+  .a{
+
+    margin: auto;
+    background-color: aqua;
+   border: 2px solid red;
+
+
+  }
+  #para2{
+    font-family: "Roboto";
+    
+  }
+  
+  /********************************************************* Partrie liste de livres**************************************************************** */
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  background-color: aqua;
+  
+
+  
+}
+ .liv1 {
+  background-color: #13a11a;
+  height: 300px;
+  width: 300px;
+border: rgb(20, 19, 19) 5px solid;
+
+margin: 10px;
+  
+ }
+ .liv2 {
+  background-color: #a14713;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border: rgb(20, 19, 19) 5px solid;
+  margin: 10px;
+  
+ } 
+
+ .liv3 {
+  background-color: #0e8014;
+  height: 300px;
+  width: 300px;
+  border: rgb(20, 19, 19) 5px solid;
+  margin: 10px;
+
+ }
+ .liv4 {
+  background-color: #1c13a1;
+  height: 300px;
+  width: 300px;
+  border: rgb(20, 19, 19) 5px solid;
+  margin: 10px;
+ }
+
+                   /********************************************************* PARTIE CONTACTE**************************************************************** */
+
+form {
+  max-width: 200px;
+  margin: 0 auto;
+}
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+textarea {
+  resize: vertical;
+}
+
